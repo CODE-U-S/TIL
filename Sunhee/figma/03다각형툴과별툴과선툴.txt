@@ -1,0 +1,28 @@
+1. 다각형 도형 그리기
+코너 파트 점을 위로 당기면 각형이 많아지고 아래로 내리면 각형이 줄어든다.
+모서리 둥굴게 위 꼭짓점
+
+(ctrl+c)+(ctrl+D) = Ouplicate 복제
+엥글에서 각도 바꾸기
+
+2. 별 도형 그리기
+- ratio 뽀죡처리
+- count 나온 모서리 개수
+
+3. 선 그리기 
+3-1, cap과 arrowhead
+디자인 패널에서의 cap과 arrowhead
+
+3-2, 점선처리(dash)
+디자인 패널의 ...아이콘 soild -> dash 변경
+dash 선길이 gap 빈공간 길이  
+
+none 평범
+square 정사각형을 점선으로 만들때
+
+3-3, 선을 면으로 처리(outline stroke)
+선을 그리고 마우스 오른쪽 대화상자
+stroke -> fill
+
+[Alt]키는 중심에서 그리는 단축키
+[Shift]키는 정비율로 그리는 단축키
