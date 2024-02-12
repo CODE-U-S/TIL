@@ -1,0 +1,28 @@
+1. 텍스트툴 알아보기
+텍스트 툴 패널
+    1. Style: 텍스트 스타일을 지정
+    2. font-family: 글꼴을 지정
+    3. style: 글자 스타일(italic) 혹은 굵기 지정
+    4. font-size: 글자 크기 지정
+    5. line-height: 행간 지정
+    6. letter-spacing: 자간 지정
+    7. paragraph-spacing: 문단 간격 지정
+    8. 텍스트 영역 크기 조정
+    9. text-align: 가로 정력
+    10. vertical-align: 세로 정렬
+    11. text-detail-setting: 텍스트 세부 설정
+
+무의미한 텍스트 생성해주는 플러그인
+Lorem ipsum
+
+2. 텍스트를 벡터로 변경하기
+텍스트에서 마우스 오른쪽 
+[Outline stroke]
+
+3. 스마트셀렉션 알아보기
+스마트셀렉션이란 피그마의 선택툴이 일정 간격을 유지하는 오브젝트를 효과적으로 관리하는 것
+
+- 동그란 위젯은 도형 선택 관련 위젯
+- 줄 위젯은 도형 간격 조정 위젯
+
+
