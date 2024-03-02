@@ -1,0 +1,37 @@
+4가지 위젯
+
+이미지 : Image.assets
+텍스트 : Text.('내용')
+아이콘 : Icon.원하는 아이콘
+박스 : Container(width: 50, height: 50, color: Colors.blue) -> 이렇게 넣으면 크기 조절이 안됨.
+
+
+위젯 안에 위젯 넣기 -> 박스의 크기 조절 가능
+
+home: Center(
+        child: Container(width: 50, height: 50, color: Colors.blue), 
+      )   --> Center라는 위젯 안에 Container라는 위젯을 넣어서 시작 위치 설정
+
+
+MaterialApp() -> 구글 스타일의 UI를 가져다 쓸 수 있다. / 기본
+
+Cupertino() -> 아이폰 기본 앱 스타일
+
+Scaffold() -> 상중하로 나눠줌
+
+home : Scaffold(
+        appBar: AppBar(),
+        body: Container(),
+        bottomNavigationBar: BottomAppBar(),
+      )
+
+
+가로로 배치하는 법
+Row( children : [] ) -> [] 중요
+
+세로로 배치하는 법
+Column( children : [] ) 
+
+row, column 정렬
+가로축/세로축(row와 column마다 기준이 바뀌니 조심)
+mainAxisAlignment / crossAxisAlignment: MainAxisAlignment.center(가운데로) / spaceEvenly(간격을 일정하게)
