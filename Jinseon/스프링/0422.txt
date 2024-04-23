@@ -1,0 +1,19 @@
+<< aop
+1. 관심사가 있는 클래스를 bean으로 등록
+<bean>
+2. advice가 있는 클래스를 bean으로 등록
+<bean>
+3. aop 설정 시작
+<aop config>
+4. advice 등록
+<aop aspect>
+5. 관심사 point cut 등록
+pointcut
+6. 4, 5번 연결
+before, after, around, after-return, after-thowing
+
+HelloAOP
+1.IprintMsg : interface	sayHello1()	sayHello2();
+2.1를 구현한 PrintMsg만들기
+3.Aspect class
+4.sayHello1 지정해서 before, after, around, after-throwing적용해서 출력
